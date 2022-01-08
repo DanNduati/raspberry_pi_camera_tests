@@ -4,6 +4,7 @@
 2. Raspberry pi Camera v2
 
 ## 1. Testing out the camera module
+Connect the camera correctly and enable the camera interface on the raspberry pi configuration. [Raspberry pi tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera) on this.
 ```bash
 $ raspistill -o images/output.jpg
 ```
@@ -21,6 +22,10 @@ To make opencv installation less hectic i've create a bashscript that automates 
 ```bash
 $ chmod +x cv_install.sh
 $ ./cv_install.sh
+```
+## Install the other dependencies
+```bash
+$ pip install -r requirements.txt
 ```
 
 ## Sample photos
