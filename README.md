@@ -5,7 +5,7 @@ $ raspistill -o images/output.jpg
 ```
 ## 2. Clone the repository
 ```bash
-$ git clone 
+$ git clone git@github.com:DanNduati/raspberry_pi_camera_tests.git 
 ```
 ## 3. Create python virtual environment and activate it
 ```bash
