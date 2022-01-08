@@ -1,4 +1,8 @@
 # Raspberry pi V2 Camera Test
+## Hardware
+1. Raspberry pi 3 model B
+2. Raspberry pi Camera v2
+
 ## 1. Testing out the camera module
 ```bash
 $ raspistill -o images/output.jpg
@@ -18,3 +22,7 @@ To make opencv installation less hectic i've create a bashscript that automates 
 $ chmod +x cv_install.sh
 $ ./cv_install.sh
 ```
+
+## Sample photos
+<img src="images/image.jpg"></img>
+<img src="images/output.jpg"></img>
