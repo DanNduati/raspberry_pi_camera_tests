@@ -1,4 +1,3 @@
-pip3 install opencv-python
 sudo apt-get install libcblas-dev -y
 sudo apt-get install libhdf5-dev -y
 sudo apt-get install libhdf5-serial-dev -y

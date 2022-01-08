@@ -17,17 +17,16 @@ $ git clone git@github.com:DanNduati/raspberry_pi_camera_tests.git
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
-## Install opencv
+## Install the dependencies
+```bash
+$ pip install -r requirements.txt
+```
+## Install opencv dependencies
 To make opencv installation less hectic i've create a bashscript that automates this so just run the script to install
 ```bash
 $ chmod +x cv_install.sh
 $ ./cv_install.sh
 ```
-## Install the other dependencies
-```bash
-$ pip install -r requirements.txt
-```
-
 ## Sample photos
 <img src="images/image.jpg"></img>
 <img src="images/output.jpg"></img>
