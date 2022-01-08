@@ -22,7 +22,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 ## Install opencv dependencies
-To make opencv installation less hectic i've create a bashscript that automates this so just run the script to install
+To make opencv installation less hectic i've create a bashscript that automates opencv dependency installation so just run it:
 ```bash
 $ chmod +x cv_install.sh
 $ ./cv_install.sh
